@@ -8,6 +8,8 @@
     margin-top: 7rem;
     box-shadow: 0 4px 6px 0 hsla(0 , 0% ,0% ,0.2);
     position: relative;
+    word-wrap: break-word;
+    font-family: sans-serif;
 
 }
 
@@ -36,4 +38,32 @@
 
 html {
     background-color: rgb(102, 102, 102);
+}
+
+.btngrp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    float: right;
+    margin-top: 2rem;
+}
+
+button {
+    font-size: large;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+textarea {
+    border: none;
+    display: block;
+    /* margin: 2rem; */
+    font-size: 2.5rem;
+    resize: none;
+    width: 100%;
+    padding: 1rem;
+    outline: auto;
+    font-family: sans-serif;
+
 }
