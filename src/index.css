@@ -10,36 +10,3 @@ html {
   font-size: 62.5%;
 }
 
-.App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 90vh;
-}
-
-.inputbox {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 2rem;
-}
-
-input {
-  width: 40rem;
-  height: 4rem;
-  font-size: 2rem;
-}
-
-.mid-text {
-  font-size: 3rem;
-}
-
-
-button {
-  margin-top: 3rem;
-  width: 40rem;
-  padding: 1rem;
-  cursor: pointer;
-}
