@@ -1,21 +1,18 @@
-.questionBox {
+.answerBox {
     border: 1px solid white;
     border-radius: 1rem;
-    width: 90rem;
-    padding: 3rem;
+    width: 40rem;
+    padding: 2rem;
     background-color: white;
     margin-top: 7rem;
     box-shadow: 0 4px 6px 0 hsla(0 , 0% ,0% ,0.2);
     position: relative;
     word-wrap: break-word;
     font-family: sans-serif;
-    transition:  all .5s;
-
 }
 
-
-.questionBox p {
-    font-size: 2.5rem;
+.answerBox p {
+    font-size: 1.7rem;
 }
 
 .container {
@@ -23,14 +20,12 @@
     justify-content: center;
 }
 
-.fa-pencil {
+.fa-pencil.answer {
     position: absolute;
-   
-    
     background-color: rgb(0, 87, 0);
     padding: 1rem;
     border-radius: 50%;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     cursor: pointer;
     box-shadow: 0 4px 6px 0 hsla(0 , 0% ,0% ,0.2);
@@ -41,29 +36,29 @@ html {
     background-color: rgb(102, 102, 102);
 }
 
-.btngrp {
+.btngrp.answer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
+    width: 50%;
     float: right;
     margin-top: 2rem;
 }
 
-button {
-    font-size: large;
+.button.answer {
+    font-size: small;
     padding: .5rem;
     cursor: pointer;
 }
 
-textarea {
+.textarea.answer {
     border: none;
     display: block;
     /* margin: 2rem; */
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     resize: none;
     width: 100%;
-    padding: 1rem;
+    padding: .5rem;
     outline: auto;
     font-family: sans-serif;
 
