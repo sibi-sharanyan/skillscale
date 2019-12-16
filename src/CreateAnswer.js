@@ -72,6 +72,7 @@ export default function CreateAnswer(props) {
             <button className = "button answer" onClick = {() => {
                 setEdit(false);
                 setText(text);
+                props.updateParent(text , props.chno);
                 }}>Update</button>
         <button className = "button answer" onClick = {() =>  {
             setText(oldText);

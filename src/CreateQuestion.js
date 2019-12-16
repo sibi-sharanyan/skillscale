@@ -3,12 +3,12 @@ import TextareaAutosize from "react-textarea-autosize";
 
 import "./CreateQuestion.css";
 
-export default function CreateQuestion() {
+export default function CreateQuestion(props) {
   const [qboxh, setqboxh] = useState(0);
   const [qboxw, setqboxw] = useState(0);
   const [isEditing, setEdit] = useState(false);
   const [text, setText] = useState(
-    "Click the edit button to start editing the section."
+   props.text
   );
   const [oldText, setOldText] = useState("");
 
@@ -62,6 +62,7 @@ export default function CreateQuestion() {
               onClick={() => {
                 setEdit(false);
                 setText(text);
+                props.updateParent(text , 'qn');
               }}
             >
               Update
