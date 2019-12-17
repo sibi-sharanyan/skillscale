@@ -1,0 +1,49 @@
+.question.tt {
+    padding: 10rem;
+    font-size: 3rem;
+    background-color: white;
+    box-shadow: 0 4px 6px 0 hsla(0 , 0% ,0% ,0.2);
+    width: 50%;
+    border-radius: 1rem;
+}
+
+.choice.tt {
+    padding: 3rem;
+    font-size: 2rem;
+    background-color: white;
+    width: 30%;
+    box-shadow: 0 4px 6px 0 hsla(0 , 0% ,0% ,0.2);
+    border-radius: .5rem;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.container.tt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.btn-group.tt {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sd.tt {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choice-grp.tt {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}

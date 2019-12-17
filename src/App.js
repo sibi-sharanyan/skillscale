@@ -3,7 +3,7 @@ import React from 'react'
 // import CreateQuestion from './CreateQuestion';
 // import CreateAnswer from './CreateAnswer';
 import EditQuestionPage from './EditQuestionPage';
-
+import TakeTest from './TakeTest';
 export default function App() {
   return (
     <div>
@@ -11,7 +11,8 @@ export default function App() {
       {/* <CreateQuestion />
       <CreateAnswer /> */}
 
-      <EditQuestionPage />
+      <TakeTest />
+
      </div>
   )
 }
